@@ -13,7 +13,7 @@ int main(int argc, char * argv[]){
     printf("value after 500usec is %ld\n", t.microseconds());
     
     t.resume();
-    wait(Micrseconds(500));
+    wait(Microseconds(500));
     t.stop();
     printf("value after another 500usec is %ld\n", t.microseconds());
     
